@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Test Application</string>
+    <string name="nav_header_title">List of workers</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_workers">Workers</string>
+    <string name="menu_specialties">Specialties</string>
+    <string name="menu_worker_info">Info about worker</string>
+
+    <string name="all">All</string>
+    <string name="avatar">Photo</string>
+    <string name="info">-</string>
+
+    <string name="first_name_info">First Name:</string>
+    <string name="last_name_info">Last Name:</string>
+    <string name="birthday_info">DOB:</string>
+    <string name="age_info">Age:</string>
+    <string name="specialties_info">Specialties:</string>
+
+    <string name="update_data">Update data...</string>
+    <string name="updated">Updated</string>
+
+    <string name="error_no_connection">No internet connection</string>
+    <string name="error_no_host">Host is not found</string>
+</resources>

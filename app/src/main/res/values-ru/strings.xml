@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Тестовая программа</string>
+    <string name="action_settings">Настройки</string>
+    <string name="age_info">Возраст:</string>
+    <string name="all">Все</string>
+    <string name="avatar">Фото</string>
+    <string name="birthday_info">Дата рождения:</string>
+    <string name="first_name_info">Имя:</string>
+    <string name="info">-</string>
+    <string name="last_name_info">Фамилия:</string>
+    <string name="menu_specialties">Специальности</string>
+    <string name="menu_worker_info">Информация о работнике</string>
+    <string name="menu_workers">Работники</string>
+    <string name="nav_header_desc">Заголовок навигации</string>
+    <string name="nav_header_title">Список работников</string>
+    <string name="specialties_info">Специальности:</string>
+    <string name="update_data">Обновление данных...</string>
+    <string name="updated">Обновлено</string>
+    <string name="error_no_connection">Нет подключения к интернету</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_workers">
+
+    <fragment
+        android:id="@+id/nav_workers_filtered"
+        android:name="com.example.testapplication.view.fragments.WorkersListFragment"
+        android:label="@string/menu_workers"
+        tools:layout="@layout/fragment_workers_list" >
+        <action
+            android:id="@+id/action_workers_to_workerInfo"
+            app:destination="@id/nav_worker_info" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_workers"
+        android:name="com.example.testapplication.view.fragments.WorkersListFragment"
+        android:label="@string/menu_workers"
+        tools:layout="@layout/fragment_workers_list">
+        <action
+            android:id="@+id/action_workers_to_workerInfo"
+            app:destination="@id/nav_worker_info" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_specialties"
+        android:name="com.example.testapplication.view.fragments.SpecialtiesListFragment"
+        android:label="@string/menu_specialties"
+        tools:layout="@layout/fragment_specialties_list" >
+        <action
+            android:id="@+id/action_specialties_to_workers_filtered"
+            app:destination="@id/nav_workers_filtered" />
+        <action
+            android:id="@+id/action_specialties_to_workers"
+            app:destination="@id/nav_workers" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_worker_info"
+        android:name="com.example.testapplication.view.fragments.WorkerInfoFragment"
+        android:label="@string/menu_worker_info"
+        tools:layout="@layout/fragment_worker_info" />
+
+</navigation>
